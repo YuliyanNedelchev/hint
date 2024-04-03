@@ -18,6 +18,7 @@ import styles from "../app/page.module.css";
 import { useRouter } from "next/navigation";
 import { useResult } from "../app/context/ResultsContext";
 import { useLoader } from "@/app/context/LoaderContext";
+import { Dayjs } from "dayjs";
 
 interface FormValues {
 	country: string;
@@ -26,7 +27,7 @@ interface FormValues {
 	occasion: string;
 	interest: string[];
 	additionalInfo: string;
-	date: Date | null;
+	date: Dayjs | null | undefined;
 }
 
 const initialValues: FormValues = {
