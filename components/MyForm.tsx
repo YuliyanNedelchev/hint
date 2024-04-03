@@ -16,8 +16,8 @@ import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import styles from "../app/page.module.css";
 import { useRouter } from "next/navigation";
-import { useResult } from "../app/context/ResultsContext";
-import { useLoader } from "@/app/context/LoaderContext";
+import { useResult } from "../context/ResultsContext";
+import { useLoader } from "@/context/LoaderContext";
 import { Dayjs } from "dayjs";
 
 interface FormValues {

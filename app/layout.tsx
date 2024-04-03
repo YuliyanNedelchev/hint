@@ -1,8 +1,7 @@
-"use client";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import { ResultProvider } from "./context/ResultsContext";
-import { LoaderContextProvider } from "./context/LoaderContext";
+import { ResultProvider } from "../context/ResultsContext";
+import { LoaderContextProvider } from "../context/LoaderContext";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });

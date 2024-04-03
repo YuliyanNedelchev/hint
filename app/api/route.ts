@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { OpenAIService } from "../services/openAI";
+import { OpenAIService } from "../../services/openAI";
 
 export async function POST(req: NextRequest): Promise<void> {
 	try {

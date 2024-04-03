@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { useResult } from "../context/ResultsContext";
+import { useResult } from "../../context/ResultsContext";
 import { Box, Card, CardContent, Typography } from "@mui/material";
 
 const Results = () => {
