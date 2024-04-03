@@ -7,6 +7,7 @@ export async function POST(req: NextRequest) {
 		const personInformation = await req.json();
 
 		const answer = await openAIServices.analyzePerson(personInformation);
+		//eslint-disable-next-line no-console
 
 		return NextResponse.json(Object.values(answer), { status: 200 });
 	} catch (error) {
