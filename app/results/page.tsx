@@ -14,8 +14,8 @@ const Results = () => {
 				alignItems: "center",
 			}}
 		>
-			{results.map((result) => (
-				<Card sx={{ marginBottom: 5, width: "60%" }}>
+			{results.map((result, index) => (
+				<Card sx={{ marginBottom: 5, width: "60%" }} key={index}>
 					<CardContent>
 						<Typography variant="h4">{result.title}</Typography>
 						<Typography>
