@@ -136,9 +136,6 @@ const MyForm = () => {
 								onChange={(value) =>
 									setFieldValue("date", value)
 								}
-								renderInput={(params) => (
-									<TextField {...params} />
-								)}
 							/>
 							<FormControl fullWidth>
 								<InputLabel id="interests-label">
